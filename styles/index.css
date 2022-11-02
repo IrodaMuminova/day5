@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Fraunces', serif; */
+/* font-family: 'Barlow', sans-serif; */
+body {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* HEADER QISMI  */
+.logo__coffe {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    background: rgb(255, 253, 253)
+}
+
+.header-container {
+
+    margin-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+}
+
+.logo__brand {
+    display: flex;
+}
+
+.logo__list {
+    display: flex;
+}
+
+.logo__brand a {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 20px;
+}
+
+.logo__list--item {
+    margin-left: 32px;
+}
+
+.logo__list--item a {
+    font-weight: 700;
+    font-size: 12px;
+    color: #83888F;
+}
+
+/* MAIN QISMI  */
+.main-container {
+    margin-top: 65px;
+    background: #A2A2A2;
+    border-radius: 10px;
+    padding: 117px 0px 116px 85px;
+}
+
+.great {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 72px;
+    color: #FEFCF7;
+    width: 493px;
+    margin: 0px 0px 32px 0px;
+}
+
+.main--great {
+    width: 445px;
+    font-size: 16px;
+    color: #FEFCF7;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.main--button {
+    background: #0E8784;
+    border-radius: 6px;
+    color: #fff;
+    border: 0;
+    width: 217px;
+    height: 56px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.main--button:hover {
+    background: #fff;
+    color: #0E8784;
+    transition: 1s;
+    box-shadow: 1px 1px 1px rgb(155, 154, 154);
+}
+
+/* COLLECTION QISMI  */
+.collection {
+    padding-top: 70px;
+}
+
+.collection--blog {
+    width: 1111px;
+    height: 196px;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    margin-right: 60px;
+    margin-left: 85px;
+}
+
+.collection--our {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 72px;
+    text-align: left;
+    color: rgba(131, 136, 143, 0.2);
+    width: 1111px;
+}
+
+.expresso {
+    position: relative;
+    top: -220px;
+}
+
+.expresso--great {
+    color: #333D4B;
+}
+
+.exspesso-list__item-gran--exper {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.exspesso-list {
+    display: flex;
+    gap: 0 30px;
+    margin-left: 48px;
+}
+
+.exspresso-image {
+    background-image: url(../images/expresso.png);
+    width: 256px;
+    height: 193px;
+}
+
+.expresso--great {
+    height: 78px;
+    width: 255px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.exspesso-list__item {
+    margin-top: 71px;
+    width: 255px;
+}
+
+/* CHOOSE QISMI  */
+/* .choose-container{
+   
+} */
+.large {
+    text-align: center;
+    background: #2C343E;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 317px;
+}
+
+.large--choose {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    /* width: 329px; */
+    text-align: center;
+}
+
+.large--level {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 32px 370px;
+    opacity: 0.8;
+}
+
+.quality {
+    display: flex;
+    margin: 0 85px;
+    gap: 0px 30px;
+}
+
+.quality__benifits {
+    background: #0E8784;
+    border-radius: 8px;
+    padding: 72px 48px 48px 47px;
+    text-align: center;
+    margin-bottom: 14px;
+    position: relative;
+    bottom: 228px;
+}
+
+.quality__benifits--best {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    margin: 56px 0px 24px 0px;
+}
+
+.quality .quality__benifits:nth-child(3) img {
+    margin: 11px 0px;
+}
+
+.quality__benifits--discover {
+    text-align: center;
+    color: #FEFCF7;
+}
+
+/* WORKS QISMI  */
+.works__circle {
+    display: flex;
+    position: relative;
+    top: 13px;
+}
+
+.works-container {
+    padding: 0px 85px;
+}
+
+.works__circle--item {
+    width: 27px;
+    height: 23px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    margin-right: 349px;
+    background: #fff;
+
+}
+
+.works__number {
+    display: flex;
+
+
+}
+
+.works__number--item {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    padding-top: 87px;
+}
+
+.works__number--item:nth-child(1) {
+    padding-right: 290px;
+    border-top: 2px solid #FDD6BA;
+}
+
+.works__number--item:nth-child(2) {
+    padding-right: 285px;
+    border-top: 2px solid #FDD6BA;
+}
+
+.works__pick {
+    display: flex;
+    margin-top: 38px;
+}
+
+.works--how {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 80px;
+}
+
+.works__pick--cofee {
+    width: 255px;
+    margin-bottom: 42px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.works__pick--select {
+    width: 285px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.works__pick--item {
+    margin-right: 95px;
+}
+
+.works__button {
+    border: 0;
+    margin-top: 64px;
+    padding: 15px 31px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+}
+
+/* FOOTER QISMI  */
+.footer-container {
+    background: #2C343E;
+    padding: 47px 85px;
+    display: flex;
+    margin-top: 200px;
+}
+
+.logo__brand--coffero {
+    color: #fff;
+}
+
+.social-list {
+    display: flex;
+    gap: 0 24px;
+}
+
+.footer-logo__list {
+    padding: 0px 369px 0px 103px;
+}
+
+
+
+/* 2-SAHIFA  */
+
+/* MAIN QISMI  */
+
+.about_us {
+    background-image: url(../images/Bitmap.png);
+    margin-top: 65px;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding: 137px 750px 85px 85px;
+    /* background: #A2A2A2; */
+    border-radius: 10px;
+}
+
+.about_us--began {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.about_us--choose {
+    text-align-last: left;
+    margin-bottom: 24px;
+}
+
+.commit-container {
+    margin-top: 168px;
+    display: flex;
+    gap: 0px 125px;
+}
+
+.commit__image {
+    padding: 0px 0px 86px 40px;
+    margin-left: 15px;
+   
+}
+
+.commit__image img {
+    width: 445px;
+    height: 520px;
+    background: #0E8784;
+    border-radius: 8px;
+}
+.commitment{
+color: #333D4B;
+margin-top: 90px;
+}
+.commit__word--built{
+    width: 540px;
+    color: #333D4B;
+opacity: 0.8;
+}
+
+/* UNCOMPROMISING QISMI  */
+.container-uncompromising{
+    display: flex;
+background: #2C343E;
+border-radius: 10px;
+padding: 88px 0px 0px 85px;
+position: relative;
+margin-top: 256px;
+}
+.uncompromising--journey{
+    width: 540px;
+    opacity: 0.8;
+    margin-top: 32px;
+    margin-bottom: 176px;
+}
+.uncompromising__image{
+    position: absolute;
+    /* left: 750px; */
+    right: 85px;
+    bottom: 88px;
+}
+.uncompromising__image img{
+    border-radius: 8px;
+}
+
+/* HEADQUARTERS QISMI  */
+.headquarters-container{
+    margin-top: 168px;
+    padding-left: 85px;
+}
+.headquarters__item img{
+    margin-bottom: 45px;
+}
+.headquarters__item--kingdom{
+    width: 272px;
+}
+.headquarters__item--united{
+    width: 285px;
+    height: 107px;
+}
+.headquarters-list{
+    display: flex;
+    gap: 0px;
+}
