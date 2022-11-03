@@ -614,12 +614,15 @@ margin-left: 10px;
 }
 .capsule__system:hover{
     background: #0E8784;
+    transition-duration: 1s;
 }
 .capsule__system:hover .capsule__system--capsul{
     color: #FFFFFF;
+    transition-duration: 0.8s;
 }
 .capsule__system:hover .capsule__system--compatible{
     color: #FEFCF7;
+    transition-duration: 0.8s;
 }
 .capsule__system--capsul {
     font-family: 'Fraunces', serif;
