@@ -410,7 +410,7 @@ header {
 .commit__image {
     padding: 0px 0px 86px 40px;
     margin-left: 15px;
-   
+
 }
 
 .commit__image img {
@@ -419,57 +419,123 @@ header {
     background: #0E8784;
     border-radius: 8px;
 }
-.commitment{
-color: #333D4B;
-margin-top: 90px;
+
+.commitment {
+    color: #333D4B;
+    margin-top: 90px;
 }
-.commit__word--built{
+
+.commit__word--built {
     width: 540px;
     color: #333D4B;
-opacity: 0.8;
+    opacity: 0.8;
 }
 
 /* UNCOMPROMISING QISMI  */
-.container-uncompromising{
+.container-uncompromising {
     display: flex;
-background: #2C343E;
-border-radius: 10px;
-padding: 88px 0px 0px 85px;
-position: relative;
-margin-top: 256px;
+    background: #2C343E;
+    border-radius: 10px;
+    padding: 88px 0px 0px 85px;
+    position: relative;
+    margin-top: 256px;
 }
-.uncompromising--journey{
+
+.uncompromising--journey {
     width: 540px;
     opacity: 0.8;
     margin-top: 32px;
     margin-bottom: 176px;
 }
-.uncompromising__image{
+
+.uncompromising__image {
     position: absolute;
     /* left: 750px; */
     right: 85px;
     bottom: 88px;
 }
-.uncompromising__image img{
+
+.uncompromising__image img {
     border-radius: 8px;
 }
 
 /* HEADQUARTERS QISMI  */
-.headquarters-container{
+.headquarters-container {
     margin-top: 168px;
     padding-left: 85px;
 }
-.headquarters__item img{
+
+.headquarters__item img {
     margin-bottom: 45px;
 }
-.headquarters__item--kingdom{
+
+.headquarters__item--kingdom {
     width: 272px;
 }
-.headquarters__item--united{
+
+.headquarters__item--united {
     width: 285px;
     height: 107px;
 }
-.headquarters-list{
+
+.headquarters-list {
     display: flex;
     gap: 0px;
+}
+
+
+/* 3- sahifa  */
+
+.creat_plan {
+    background-image: url(../images/sahifa_3.png);
+}
+
+.creat-works-container {
+
+    background: #2C343E;
+    border-radius: 10px;
+    margin-top: 177px;
+    padding-top: 90px;
+    padding-bottom: 109px;
+}
+
+.creat-works__circle--item {
+    background: transparent;
+}
+
+.creat-works__pick--cofee {
+    color: #FEFCF7;
+}
+
+.creat-works__pick--select {
+    color: #FEFCF7;
+}
+
+
+
+.intro-item--span {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-right: 28px;
+}
+.intro-item--span2{
+    color: #0E8784;
+}
+.intro-item--span5{
+    color: #83888F;
+}
+.intro-item--prefer {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+.intro__item{
+    border-bottom: 1px solid #83888F;
+    opacity: 0.25;
+    padding: 24px 0; 
 }
