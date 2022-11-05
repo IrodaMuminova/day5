@@ -1,0 +1,89 @@
+@media only screen and (max-width:768px){
+    .container{
+        width: 689px;
+        margin: 0 auto;
+        /* padding: 0 40px; */
+    }
+    header{
+        padding:40px 0px 54px 0;
+        margin: 0;
+    }
+
+    /* Main qismi  */
+    .main-container{
+         margin-top: 138px;
+         background-image: url(../images/Bitmap-tablet.png);
+         padding: 104px 58px 80px 58px;
+        /* width: 689px; */
+    }
+    .great{
+        font-size: 48px;
+        line-height: 48px;
+        /* margin: 104px 0px 0px 54px; */
+    }
+    .main-great{
+        font-size: 15px;
+line-height: 25px;
+width: 398px;
+    }
+    /* Collection qismi  */
+.collection{
+    padding-top: 0px;
+    margin-top: 78px;
+}
+    .collection--blog{
+        background-image: url(../images/our-collection-tablet.png);
+        margin-right: 0;
+        margin-left: 0;
+        width: 689px;
+    }
+    /* .exspesso-list__item{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    /* .exspesso-list{
+        gap: -47px 0;
+    } */
+    .exspesso-list__item{
+        margin-top: 47px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px 36px;
+    }
+    .expresso--great{
+        width: 282px;
+    }
+    .expresso {
+        position: relative;
+        top: -210px;
+    }
+    .exspesso-list__item-gran{
+        padding-top: 28px;
+    }
+
+    .quality__benifits{
+        position: relative;
+        bottom: 240px;
+        display: flex;
+        padding: 41px 48px 41px 70px;
+        margin-bottom: 24px;
+    }
+
+    .quality{
+        margin: 0 48px;
+    }
+    .quality__benifits--discover{
+        width: 344px;
+        margin: 0;
+        text-align: left;
+        font-size: 15px;
+line-height: 25px;
+    }
+    .quality__benifits--best {
+        margin: 0;
+      text-align: left;
+    }
+    .media_quality{
+        margin-left: 55px;
+    }
+}
