@@ -57,7 +57,9 @@ header {
 .logo__brand {
     display: flex;
 }
-
+.mobile-icon{
+    display: none;
+}
 .logo__list {
     display: flex;
 }

@@ -1,67 +1,69 @@
-@media only screen and (max-width:768px){
-    .container{
+@media only screen and (max-width:768px) {
+    .container {
         width: 689px;
         margin: 0 auto;
         /* padding: 0 40px; */
     }
-    header{
-        padding:40px 0px 54px 0;
+
+    header {
+        padding: 40px 0px 54px 0;
         margin: 0;
     }
 
     /* Main qismi  */
-    .main-container{
-         margin-top: 138px;
-         background-image: url(../images/Bitmap-tablet.png);
-         padding: 104px 58px 80px 58px;
+    .main-container {
+        margin-top: 138px;
+        background-image: url(../images/Bitmap-tablet.png);
+        padding: 104px 58px 80px 58px;
         /* width: 689px; */
     }
-    .great{
+
+    .great {
         font-size: 48px;
         line-height: 48px;
         /* margin: 104px 0px 0px 54px; */
     }
-    .main-great{
+
+    .main-great {
         font-size: 15px;
-line-height: 25px;
-width: 398px;
+        line-height: 25px;
+        width: 398px;
     }
+
     /* Collection qismi  */
-.collection{
-    padding-top: 0px;
-    margin-top: 78px;
-}
-    .collection--blog{
+    .collection {
+        padding-top: 0px;
+        margin-top: 78px;
+    }
+
+    .collection--blog {
         background-image: url(../images/our-collection-tablet.png);
         margin-right: 0;
         margin-left: 0;
         width: 689px;
     }
-    /* .exspesso-list__item{
-        display: flex;
-        flex-wrap: wrap;
-    } */
-    /* .exspesso-list{
-        gap: -47px 0;
-    } */
-    .exspesso-list__item{
+    .exspesso-list__item {
         margin-top: 47px;
         display: flex;
         flex-wrap: wrap;
         gap: 0px 36px;
     }
-    .expresso--great{
+
+    .expresso--great {
         width: 282px;
     }
+
     .expresso {
         position: relative;
         top: -210px;
     }
-    .exspesso-list__item-gran{
+
+    .exspesso-list__item-gran {
         padding-top: 28px;
     }
 
-    .quality__benifits{
+    /* CHOOSE QISMI  */
+    .quality__benifits {
         position: relative;
         bottom: 240px;
         display: flex;
@@ -69,21 +71,181 @@ width: 398px;
         margin-bottom: 24px;
     }
 
-    .quality{
+    .quality {
         margin: 0 48px;
     }
-    .quality__benifits--discover{
+
+    .quality__benifits--discover {
         width: 344px;
         margin: 0;
         text-align: left;
         font-size: 15px;
-line-height: 25px;
+        line-height: 25px;
     }
+
     .quality__benifits--best {
         margin: 0;
-      text-align: left;
+        text-align: left;
     }
-    .media_quality{
+
+    .media_quality {
         margin-left: 55px;
+    }
+
+
+    .works {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width:375px) {
+
+    .container {
+        width: 327px;
+    }
+
+    /* HEADER QISMI */
+
+    header {
+        padding: 32px 0px 41px 0px;
+    }
+
+    .logo__brand a img {
+        width: 16.58px;
+        height: 16.62px;
+    }
+
+    .logo__brand--coffe {
+        width: 140.21px;
+    }
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo__list {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: block;
+    }
+    .great {
+        font-size: 40px;
+        line-height: 40px;
+        width: 279px;
+        margin-bottom: 24px;
+    }
+
+    .main--great {
+        font-size: 15px;
+        width: 279px;
+        line-height: 25px;
+    }
+
+    .main-container {
+        background-image: url(../images/hero-bg-mob.jpg);
+        margin-top: 113px;
+        padding: 100px 24px 99px 24px;
+    }
+
+    /* Collection qismi  */
+    .collection--blog {
+        background-image: url(../images/our-collection-mobile.png);
+        width: 286px;
+        margin: 0 auto;
+        margin-bottom: 13px;
+    }
+
+    .exspresso-image img {
+        width: 200px;
+        height: 151px;
+    }
+
+    .exspesso-list {
+        margin: 0 22px 0px 23px;
+        text-align: center;
+    }
+
+    .expresso--great {
+        font-size: 14px;
+        line-height: 25px;
+        width: 282px;
+        text-align: center;
+    }
+
+    .exspresso-image {
+        margin: 0 24.5px;
+    }
+    .quality {
+        margin: 0 24px;
+    }
+
+    .quality__benifits {
+        display: block;
+        padding: 72px 12px 51px 12px;
+        width: 255px;
+    }
+
+    .quality__benifits--discover {
+        font-size: 15px;
+        line-height: 25px;
+        width: 212px;
+        text-align: center;
+        margin: 0 21.5px;
+    }
+
+    .quality__benifits--best {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .media_quality {
+        margin: 0;
+        margin-top: 56px;
+    }
+
+    .large {
+        /* padding: 0; */
+        padding: 64px 24px 0px 24px;
+    }
+
+    .large--choose {
+        width: 279px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .large--level {
+        font-size: 15px;
+        line-height: 25px;
+        width: 279px;
+        padding-bottom: 661px;
+
+    }
+
+    .choose-container {
+        position: relative;
+    }
+
+    .quality {
+        position: absolute;
+        top: 545px;
+    }
+
+    .works {
+        display: none;
+    }
+
+    footer {
+        display: none;
     }
 }
